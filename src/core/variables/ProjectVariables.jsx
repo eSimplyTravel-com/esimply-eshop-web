@@ -1,15 +1,11 @@
 import React from "react";
 export const onlyCountries = [];
-export const supportedLanguages = [
-  { code: "en", name: "English", flag: "EN" },
-  { code: "ar", name: "العربية", flag: "ع" },
-  { code: "fr", name: "Français", flag: "FR" },
-];
+export const supportedLanguages = [{ code: "en", name: "English", flag: "EN" }];
 export const defaultLoginType = "email";
 export const supportedPrefix = [];
 export const excludedCountries = ["il"];
 export const dcbMessage = "dcbMessage";
-export const footerProjectName = "Monty eSIM";
+export const footerProjectName = "eSIMPLY TRAVEL";
 export const supportAddress = (
   <>
     <p>Headquarters, Bridge House,</p>

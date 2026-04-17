@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.esimply.esim",
+      "sha256_cert_fingerprints": [
+        "CE:42:F8:70:8B:84:C8:32:0F:DE:1E:B4:27:FA:60:9D:16:4F:93:38:2A:AA:C5:0D:E8:0F:55:DE:3B:78:5D:99"
+      ]
+    }
+  }
+]

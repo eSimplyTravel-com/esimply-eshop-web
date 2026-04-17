@@ -6,35 +6,35 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#122644",
-          900: "#122644",
-          800: "#253A5A",
-          700: "#3A4F70",
-          600: "#4F6486",
-          500: "#65799C",
-          400: "#7B8FB2",
-          300: "#92A5C8",
-          200: "#AABBDC",
-          100: "#C3D2EE",
-          50: "#F6FBFF",
+          DEFAULT: "#001F26",
+          900: "#001F26",
+          800: "#0A2A33",
+          700: "#143542",
+          600: "#1F4051",
+          500: "#2A4B60",
+          400: "#3A5F78",
+          300: "#567A92",
+          200: "#7FA3B8",
+          100: "#B3D0DE",
+          50: "#E6F3F8",
         },
 
         secondary: {
-          DEFAULT: "#eb224d",
-          900: "#eb224d",
-          800: "#ed385e",
-          700: "#ef4e70",
-          600: "#f16482",
-          500: "#f37a94",
-          400: "#f590a6",
-          300: "#f7a6b7",
-          200: "#f9bcc9",
-          100: "#fbd2db",
-          50: "#fde8ed",
+          DEFAULT: "#DEB665",
+          900: "#DEB665",
+          800: "#CFA457",
+          700: "#B8924D",
+          600: "#A18044",
+          500: "#8B6E3A",
+          400: "#A98B57",
+          300: "#C5AB7A",
+          200: "#DDC9A3",
+          100: "#EFE2CC",
+          50: "#FAF6ED",
         },
 
         title: {
-          DEFAULT: "#A28B6F",
+          DEFAULT: "#DEB665",
         },
 
         error: "#FF0000",
@@ -77,11 +77,12 @@ export default {
         },
       },
       fontFamily: {
-        quicksandLight: ["quicksand-light"],
-        quicksandRegular: ["quicksand-regular"],
-        quicksandMedium: ["quicksand-medium"],
-        quicksandSemibold: ["quicksand-semibold"],
-        quicksandBold: ["quicksand-bold"],
+        graveurRegular: ["graveur-regular"],
+        interLight: ["inter-light"],
+        interRegular: ["inter-regular"],
+        interMedium: ["inter-medium"],
+        interSemibold: ["inter-semibold"],
+        interBold: ["inter-bold"],
       },
 
       fontSize: {
@@ -99,6 +100,7 @@ export default {
         xxl: "2000px",
       },
       screens: {
+        xxs: "320px",
         xs: "475px",
       },
       borderRadius: {
@@ -117,13 +119,13 @@ export default {
     function ({ addComponents, addBase, theme }) {
       addComponents({
         ".font-bold": {
-          fontFamily: theme("fontFamily.quicksandBold"),
+          fontFamily: theme("fontFamily.interBold"),
         },
         ".font-medium": {
-          fontFamily: theme("fontFamily.quicksandMedium"),
+          fontFamily: theme("fontFamily.interMedium"),
         },
         ".font-semibold": {
-          fontFamily: theme("fontFamily.quicksandSemibold"),
+          fontFamily: theme("fontFamily.interSemibold"),
         },
       });
       addBase({
@@ -133,34 +135,34 @@ export default {
           "--success": theme("colors.success"),
         },
         body: {
-          color: "#122644",
+          color: "#001F26",
           fontSize: "1rem",
-          fontFamily: "quicksand-regular",
+          fontFamily: "inter-regular",
         },
         h1: {
           fontSize: "1.5rem",
-          color: "#A28B6F",
-          fontFamily: "quicksand-bold",
+          color: "#DEB665",
+          fontFamily: "inter-bold",
         },
         h2: {
-          color: "#A28B6F",
+          color: "#DEB665",
         },
         h4: {
-          color: "#A28B6F",
+          color: "#DEB665",
         },
         h3: {
           fontSize: "1.25",
-          color: "#A28B6F",
-          fontFamily: "quicksand-bold",
+          color: "#DEB665",
+          fontFamily: "inter-bold",
         },
 
         h6: {
-          color: "#A28B6F",
-          fontFamily: "quicksand-semibold",
+          color: "#DEB665",
+          fontFamily: "inter-semibold",
         },
         label: {
-          fontFamily: "quicksand-semibold",
-          color: "#122644",
+          fontFamily: "inter-semibold",
+          color: "#001F26",
         },
       });
     },

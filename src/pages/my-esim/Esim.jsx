@@ -83,7 +83,7 @@ const Esim = () => {
           text={t(
             filters?.expired === "true"
               ? "noDataFound.no_expired_plans"
-              : "noDataFound.no_active_plans"
+              : "noDataFound.no_active_plans",
           )}
         />
       ) : (

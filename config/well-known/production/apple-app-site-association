@@ -1,0 +1,31 @@
+{
+  "applinks": {
+    "apps": [
+      "62RZ7FVUZJ.com.esimply.esim"
+    ],
+    "details": [
+      {
+        "appID": "62RZ7FVUZJ.com.esimply.esim",
+        "paths": [
+          "/referral/*",
+          "/shop-plans/*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "62RZ7FVUZJ.com.esimply.esim"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "com.esimply.esim.Clip"
+    ]
+  }
+}

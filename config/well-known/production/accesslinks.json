@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.esimply.esim",
       "sha256_cert_fingerprints": [
-        "CE:42:F8:70:8B:84:C8:32:0F:DE:1E:B4:27:FA:60:9D:16:4F:93:38:2A:AA:C5:0D:E8:0F:55:DE:3B:78:5D:99"
+        "CE:42:F8:70:8B:84:C8:32:0F:DE:1E:B4:27:FA:60:9D:16:4F:93:38:2A:AA:C5:0D:E8:0F:55:DE:3B:78:5D:99",
+        "F5:1E:63:35:64:D7:16:93:5E:60:20:5F:D2:A7:E5:39:2A:7E:19:6E:0B:63:F1:36:7F:19:E8:7C:52:5F:77:77"
       ]
     }
   }
